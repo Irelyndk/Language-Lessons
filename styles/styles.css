@@ -1,6 +1,19 @@
 .logo{
   max-width: 10%;
 }
+.love{
+  width: 50%;
+}
+ .dictionary{
+  width: 50%;
+}
+
+.me{
+  width:200px;
+}
+.family{
+  width: 200px;
+}
 #feedback {
     background-color: antiquewhite;
     position: absolute;

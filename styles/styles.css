@@ -1,11 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Merriweather&display=swap');
+*{
+  font-size: 22px;
+}
+body{
+  background-color: #ff8200;
+  padding: 0;
+  margin: 0%;
+  font-family:  Merriweather, Helvetica, sans-serif;
+}
+header{
+  background-color: #ff000f;
+  margin: 0 auto;
+  width: 100%;
+  
+}
+nav {
+  display:flex;
+  justify-content: space-around;
+}
+nav a{
+  text-align: center;
+  text-decoration: none;
+  padding:35px;
+  color: #ffc100;
+}
 .logo{
   max-width: 10%;
 }
 .love{
-  width: 50%;
+  max-width: 100%;
+  
+}
+.head-card{
+  font-family: "Grape Nuts", Merriweather, sans-serif;
+}
+.lyric{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #ffeaae;
+  
+}
+.music{
+  padding: 20px;
+  font-family: "Grape Nuts", Merriweather, sans-serif;
 }
  .dictionary{
   width: 50%;
+  margin-top: 15%;
+  margin-left: 25%;
+ 
 }
 
 .me{
@@ -13,6 +56,19 @@
 }
 .family{
   width: 200px;
+}
+footer{
+  background-color: #ff000f;
+  color:black;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Grape Nuts", Merriweather, sans-serif;
+}
+footer a{
+  color: #ffc100;
 }
 #feedback {
     background-color: antiquewhite;

@@ -14,6 +14,16 @@ header{
   width: 100%;
   
 }
+.topnav{
+  border-bottom: 3px solid transparent;
+}
+.topnav a:hover {
+  border-bottom: 3px solid black;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid black;
+}
 nav {
   display:flex;
   justify-content: space-around;
@@ -21,7 +31,7 @@ nav {
 nav a{
   text-align: center;
   text-decoration: none;
-  padding:35px;
+  margin:35px;
   color: #ffc100;
 }
 .logo{
@@ -58,6 +68,14 @@ nav a{
 }
 .family{
   width: 200px;
+}
+.schedule{
+  display:grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  padding: 5%;
+}
+.size{
+  max-width: 30%;
 }
 footer{
   background-color: #ff000f;

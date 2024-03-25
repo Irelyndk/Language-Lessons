@@ -29,16 +29,18 @@ nav a{
 }
 .love{
   max-width: 100%;
-  
+}
+.words{
+  padding: 5%;
 }
 .head-card{
   font-family: "Grape Nuts", Merriweather, sans-serif;
+
 }
 .lyric{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   color: #ffeaae;
-  
 }
 .music{
   padding: 20px;

@@ -27,6 +27,7 @@ header{
 nav {
   display:flex;
   justify-content: space-around;
+  font-family: "Grape Nuts", Merriweather, sans-serif;
 }
 nav a{
   text-align: center;
@@ -88,6 +89,9 @@ grid-row: 1/3;
 }
 .size{
   max-width: 90%;
+}
+.expectation{
+  font-family: "Grape Nuts", Merriweather, sans-serif;;
 }
 footer{
   background-color: #ff000f;
